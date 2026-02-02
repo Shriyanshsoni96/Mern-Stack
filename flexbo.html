@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+<style>
+    .container
+    {
+     width:100%;
+     height:1000px;
+     border: 2px solid black;
+     background-color: beige;
+      margin: 10px;
+      display: flex;
+      flex-direction: row-reverse;  
+/* align-content: ; */
+      /* flex-wrap: wrap; */
+      
+
+      /* flex-flow: row wrap-reverse; */
+      /* flex flow : direction or wrapping dono ek sath */
+    
+      /* justify-content: space-between; */
+      /* space btw me elements ke last or first element corner me ho jate he  */
+    
+      /* justify-content: space-around; */
+        /*  it makes same space btw elemnts not from padding   */
+
+
+   /* justify-content:space-evenly;  */
+   /* space evenly is used for making exact space btw element through padding */
+     
+       /* align-items: center; */
+    /* items ko center me align krta he over cross axis horizontally  */
+
+      /* align-items: baseline; */
+      /* main line pe is know as baseline  */
+
+     /* align-items: end; */
+
+     /* align-items:self-end; */
+ 
+     /* align-items : stretch; */
+      /* by default every item is strecchy */
+     align-items:start;
+     justify-content: start;  
+     align-content:center; 
+     /* align content remvoes the space btw boxes "after wrapping space" */
+    justify-content: right;
+     
+    }
+    .box{
+        /* width: 100px; */
+        /* height: 100px; */
+        margin: 10px;
+        padding: 10px;
+    }
+    #box1{
+        background-color: burlywood;
+        border: 2px dotted red;
+        /* flex-shrink:initial; */
+        /* flex shrink is used to shirnking the element chota krna element ko   */
+        
+        /* order: 5; */
+        /* used for ordering the element  */
+
+        /* flex-grow: 5; */
+        /* used for growing the element after itss orignal size */
+
+          /* flex-basis: 400px; */
+          /* flaex basis is used for custom dimention of elments  */
+
+          /* align-self: self-end; */
+        /* it is used for changing position of elements by default the crossaxis is vertical  */
+
+    }
+      #box2{
+        background-color: rgb(0, 192, 90);
+        border: 2px dotted red;
+        
+        
+
+    }
+      #box3{
+        background-color: rgb(255, 234, 0);
+        border: 2px dotted rgb(69, 69, 69);
+       
+    }
+      #box4{
+        background-color: burlywood;
+        border: 2px dotted rgb(0, 0, 0);
+        /* order: -1; */
+       
+    }
+    
+</style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+         <div class="box" id="box2">2</div>
+          <div class="box" id="box3">3</div>
+           <div class="box" id="box4">4</div>
+
+    </div>
+</body>
+</html>
