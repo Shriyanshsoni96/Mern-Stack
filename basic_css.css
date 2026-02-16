@@ -1,0 +1,13 @@
+p{
+    color: red;
+    background-color: rgb(255, 208, 208);
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+#para1{
+    font-size: 20px;
+    color: green;
+    background: #000;
+}
