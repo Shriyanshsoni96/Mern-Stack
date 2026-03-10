@@ -1,13 +1,33 @@
+/*       its a universal selector which applies to all the elements */
+*{   
+margin: 70px;
+    padding: 40px;
+}
 p{
     color: red;
     background-color: rgb(255, 208, 208);
+    padding: 20px;
 }
 h1{
     text-align: center;
     color: blue;
+    padding: 10px;
 }
 #para1{
     font-size: 20px;
     color: green;
     background: #000;
+    margin:20px;
+    /* padding:30px; applied on all the sides */
+    /* padding-left: 40px; */
+    /* padding: 20px 40px 20px 60px;  top right bottom left */
+    padding: 20px 40px;/* top and bottom 20px and left and right 40px */
+}
+article{
+    background-color: rgb(179, 200, 150);
+    width: 500px;
+    height: 200px;
+    padding: 40px;/* space between content and border */
+    margin: 40px;/* space between element and other element */
+
 }
