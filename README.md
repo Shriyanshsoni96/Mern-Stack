@@ -1,2 +1,3 @@
 # Mern-Stack
-Practice of MERN Stack Development With Project
+Practice of MERN Stack Development With Project using HTML , CSS , JAVASCRIPT 
+
