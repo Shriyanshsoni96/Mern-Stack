@@ -65,3 +65,12 @@ console.log(canVote); // Output: Yes
 let isRaining = true;
 let isSunny = false;
  !isRaining && isSunny ? console.log("Go outside") : console.log("Stay inside"); // Output: Stay inside
+ console.log("Hello World"); 
+
+let firstname = "Jonny "
+let lastname = "Das "
+let middlename =`kumar`
+    console.log(firstname + " " + middlename + " " + lastname); // Output: John kumar Doe
+// if i want to print the type of a variable then we can use typeof operator
+
+console.log(typeof firstname)
