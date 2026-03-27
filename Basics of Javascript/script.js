@@ -1,12 +1,12 @@
 
-let a = 12;
-let b = a ; 
- a= a+2 ; 
-console.log(a);
-let n = null;
-console.log(n); 
-let u1 = Symbol("UID");
-let u2 = Symbol("UID");
+// let a = 12;
+// let b = a ; 
+//  a= a+2 ; 
+// console.log(a);
+// let n = null;
+// console.log(n); 
+// let u1 = Symbol("UID");
+// let u2 = Symbol("UID");
 
 // var 
 // window me add hota he 
@@ -56,30 +56,64 @@ let u2 = Symbol("UID");
 // 5. Bitwise operators = & , | , ^ , ~ , << , >> , >>>
 // 6. Ternary operator = condition ? expression1 : expression2
 
-//example of ternary operator
-let age = 1;
-let canVote = age >= 18 ? "Yes" : "No";
-console.log(canVote); // Output: Yes
+// //example of ternary operator
+// let age = 1;
+// let canVote = age >= 18 ? "Yes" : "No";
+// console.log(canVote); // Output: Yes
 
-// example of logical operators !
-let isRaining = true;
-let isSunny = false;
- !isRaining && isSunny ? console.log("Go outside") : console.log("Stay inside"); // Output: Stay inside
- console.log("Hello World"); 
+// // example of logical operators !
+// let isRaining = true;
+// let isSunny = false;
+//  !isRaining && isSunny ? console.log("Go outside") : console.log("Stay inside"); // Output: Stay inside
+//  console.log("Hello World"); 
 
-let firstname = "Jonny "
+
+//string 
+let firstname = "Jonny"
 let lastname = "Das "
 let middlename =`kumar`
-    console.log(firstname + " " + middlename + " " + lastname); // Output: John kumar Doe
+    // console.log(firstname + " " + middlename + " " + lastname); // Output: John kumar Doe
 // if i want to print the type of a variable then we can use typeof operator
+// console.log(typeof firstname);
+// let khandan = `das familty ka
+// sabse bada khandan 
+// he 
+// or me isme hi 
+// rehaunga
+// samjha kya
+// `; 
+// console.log(khandan);
+// let name = new String("Jonny");
+// console.log(name); // Output: [String: 'Jonny']
+// let op1 = firstname 
+// let op2 = lastname
+// console.log(`${op1} ${middlename} ${op2}`); // Output: John kumar Doe
+// template literals me aapko ${} ke andar variable ka naam dena hota he jisko aap print krna chahte ho
 
-console.log(typeof firstname);
+// if i want to print the length of a string then we can use length property
+// console.log(firstname.length); // Output: 5
 
-let khandan = `das familty ka
-sabse bada khandan 
-he 
-or me isme hi 
-rehaunga
-samjha kya
-`; 
-console.log(khandan);
+// if i want to print the index of a character in a string then we can use indexOf() method
+// console.log(firstname.indexOf("n")); // Output: 2
+// if i want to print the last index of a character in a string then we can use lastIndexOf() method
+// console.log(firstname.lastIndexOf("n")); // Output: 3
+// if i want to print the character at a specific index in a string then we can use charAt() method
+// console.log(firstname.charAt(2)); // Output: n
+
+// if i want to print the substring of a string then we can use substring() method
+// console.log(firstname.substring(1, 4)); // Output: onn
+// if i want to print the slice of a string then we can use slice() method
+// console.log(firstname.slice(1, 4)); // Output: onn 
+// if i want to print the split of a string then we can use split() method
+// console.log(firstname.split("")); // Output: [ 'J', 'o', 'n', 'n', 'y', ' ' ]
+// if i want to print the replace of a string then we can use replace() method
+// console.log(firstname.replace("Jonny", "John")); // Output: John
+// if i want to print the toUpperCase of a string then we can use toUpperCase() method
+// console.log(firstname.toUpperCase()); // Output: JONNY
+// if i want to print the toLowerCase of a string then we can use toLowerCase() method
+// console.log(firstname.toLowerCase()); // Output: jonny
+// if i want to print the trim of a string then we can use trim() method
+// let str = "   Hello World   ";
+// console.log(str.trim()); // Output: Hello World
+//trim() method removes whitespace from both ends of a string but it does not remove whitespace from the middle of a string
+
