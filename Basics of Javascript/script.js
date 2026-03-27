@@ -73,4 +73,13 @@ let middlename =`kumar`
     console.log(firstname + " " + middlename + " " + lastname); // Output: John kumar Doe
 // if i want to print the type of a variable then we can use typeof operator
 
-console.log(typeof firstname)
+console.log(typeof firstname);
+
+let khandan = `das familty ka
+sabse bada khandan 
+he 
+or me isme hi 
+rehaunga
+samjha kya
+`; 
+console.log(khandan);
