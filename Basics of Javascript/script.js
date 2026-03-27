@@ -48,6 +48,14 @@ let u2 = Symbol("UID");
 // 2. Non-primitive data types = Object, Array , Function
 // NON-PRIMITIVE DATA TYPES ME HUM VALUE NHI STORE KRTE HE HUM REFERENCE STORE KRTE HE
 
+//operators in javascript
+// 1. Arithmetic operators = + , - , * , / , % , ++ , --
+// 2. Assignment operators = = , += , -= , *= , /= , %=
+// 3. Comparison operators = == , === , != , !== , > , < , >= , <=
+// 4. Logical operators = && , || , !
+// 5. Bitwise operators = & , | , ^ , ~ , << , >> , >>>
+// 6. Ternary operator = condition ? expression1 : expression2
+
 //example of ternary operator
 let age = 1;
 let canVote = age >= 18 ? "Yes" : "No";
