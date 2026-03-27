@@ -48,3 +48,12 @@ let u2 = Symbol("UID");
 // 2. Non-primitive data types = Object, Array , Function
 // NON-PRIMITIVE DATA TYPES ME HUM VALUE NHI STORE KRTE HE HUM REFERENCE STORE KRTE HE
 
+//example of ternary operator
+let age = 1;
+let canVote = age >= 18 ? "Yes" : "No";
+console.log(canVote); // Output: Yes
+
+// example of logical operators !
+let isRaining = true;
+let isSunny = false;
+ !isRaining && isSunny ? console.log("Go outside") : console.log("Stay inside"); // Output: Stay inside
