@@ -69,9 +69,9 @@
 
 
 //string 
-let firstname = "Jonny"
-let lastname = "Das "
-let middlename =`kumar`
+// let firstname = "Jonny"
+// let lastname = "Das "
+// let middlename =`kumar`
     // console.log(firstname + " " + middlename + " " + lastname); // Output: John kumar Doe
 // if i want to print the type of a variable then we can use typeof operator
 // console.log(typeof firstname);
@@ -117,8 +117,8 @@ let middlename =`kumar`
 // console.log(str.trim()); // Output: Hello World
 //trim() method removes whitespace from both ends of a string but it does not remove whitespace from the middle of a string
 
-let name = "hello \"kaise\" ho aap log";
-console.log(name); // Output: hello "kaise" ho aap log
-// if i want to print the backslash in a string then we can use double backslash
-let path = "C:\\Users\\Jonny\\Documents";
-console.log(path); // Output: C:\Users\Jonny\Documents
+// let name = "hello \"kaise\" ho aap log";
+// console.log(name); // Output: hello "kaise" ho aap log
+// // if i want to print the backslash in a string then we can use double backslash
+// let path = "C:\\Users\\Jonny\\Documents";
+// console.log(path); // Output: C:\Users\Jonny\Documents
