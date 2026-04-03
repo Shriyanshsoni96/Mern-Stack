@@ -7,3 +7,5 @@
 // let element = document.getElementById("myElement");
 // console.log(element);
 
+document
+document.getElementById("btn");
