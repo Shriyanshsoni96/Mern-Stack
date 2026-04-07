@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="dom_manipulation.js"></script>
 </head>
 <body>
-    <div id="container">
-    <p id="heading" class="heading">Hello World</p>
-    <button id="btn" class="heading" >Change  button </button>
-    <p id="1Heading">New 1 Heading</p>
-    <p id="2Heading">New 2 Heading</p>
-    <p id="3Heading">New 3 Heading</p>
-    <p id="4Heading">New 4 Heading</p>
-    <p id="5Heading">New 5 Heading</p>
-    <p id="6Heading">New 6 Heading</p> 
-   </div>
+    <!--defer is used to tell the browser to execute the script after the HTML document has been fully parsed. 
+    This ensures that the DOM elements are available for manipulation when the script runs.-->
+      <div 
+          style="background-color: lawngreen;
+                padding: 1rem;
+                margin: 3rem;
+                border: 2px solid black;"
+                id="mydiv">
+
+        <h1>This is a paragraph inside the first div.</h1>
+        
+        <div   id="mydiv2"; 
+               style="background-color: lightblue;
+                      padding: 5rem; 
+                      border: 2px dotted black;" >
+            <h2 id="fhead">This is a heading inside the second div which we need too remove .</h2>
+            <span>this is the tag of span </span>
+            <p>This is a paragraph inside the second div.</p>
+    <script src="dom_manipulation.js"defer></script> 
+            
+        </div>
+    </div>
 </body>
 </html>

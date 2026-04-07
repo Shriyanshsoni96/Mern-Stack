@@ -62,6 +62,24 @@
 // newElement.textContent = "This is a new paragraph.";
 // after this we create the new file with name adding file in both formats 
 
-// 
+// removing of the element from the DOM
+// 1. remove() method is used to remove an element from the DOM.
+//    let element = document.querySelector("#fhead");
+//    element.remove();
+   // it can remove the element from the Dom without the need to access its parent element,
+   //  it is a more straightforward way to remove an element from the DOM compared to removeChild() method.
+
+// 2. removeChild() method is used to remove a child element from a parent element.
+// let parent = document.querySelector("#mydiv2");
+// let child = document.querySelector("#fhead");
+// parent.removeChild(child);
 
 
+
+// to find the parent element using child element 
+
+// let child = document.getElementById("fhead");
+
+// let parent = child.parentElement;
+
+// console.log(parent);
