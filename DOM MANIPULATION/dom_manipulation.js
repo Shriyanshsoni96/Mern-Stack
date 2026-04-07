@@ -60,6 +60,8 @@
 // 1. createElement() method is used to create a new element.
 // let newElement = document.createElement("p");
 // newElement.textContent = "This is a new paragraph.";
+// after this we create the new file with name adding file in both formats 
 
+// 
 
 
