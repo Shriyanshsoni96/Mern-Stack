@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
+
+table, th, td {
+    font-family: "Felipa", serif;
+}
+
+.felipa-regular {
+    font-family: "Felipa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+th,
+td {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    border-spacing: 0;
+    border: 1px solid rgb(31, 53, 36);
+}
+
+#week {
+    font-weight: bold;
+    background-color: beige;
+}
+
+#C {
+    background-color: lightblue;
+}
+
+#HTML {
+    background-color: lavender;
+}
+
+#css {
+    background-color: lemonchiffon;
+}
+
+#JAVA {
+    background-color: palegreen;
+}
+
+#head{
+    background-color: rgba(205, 71, 89, 0.729);
+}
