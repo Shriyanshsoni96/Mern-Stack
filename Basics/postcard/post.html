@@ -4,71 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medium Clone</title>
-
-    <!-- Font Awesome -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
  <link rel="stylesheet" href="post.css">
 </head>
 <body>
-    <header class="header">
+    
 
-        <div class="left-header">
-            <i class="fa-solid fa-bars menu"></i>
+<body>
 
-            <h1 class="logo">Medium</h1>
+    <nav class="navbar">
 
-            <div class="search-box">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search">
-            </div>
+        <div class="nav-left">
+            <i class="fa-solid fa-bars"></i>
+            <h1>Medium</h1>
         </div>
 
-        <div class="right-header">
-            <button class="app-btn">Get app</button>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search">
+        </div>
 
-            <i class="fa-regular fa-pen-to-square"></i>
+        <div class="nav-right">
+            <button>Get App</button>
             <span>Write</span>
-
             <i class="fa-regular fa-bell"></i>
-            <p>🛖</p>
+
+            <img src="https://i.pravatar.cc/40" alt="">
         </div>
 
-    </header>
+    </nav>
+
+    <!-- left wala side baar  -->
+
     <div class="container">
+
+        <!-- LEFT SIDEBAR -->
 
         <aside class="sidebar">
 
             <ul>
 
-                <li>
-                    <i class="fa-solid fa-house"></i>
-                    <span>Home</span>
-                </li>
+                <li><i class="fa-solid fa-house"></i> Home</li>
 
-                <li>
-                    <i class="fa-regular fa-bookmark"></i>
-                    <span>Library</span>
-                </li>
+                <li><i class="fa-regular fa-bookmark"></i> Library</li>
 
-                <li>
-                    <i class="fa-regular fa-user"></i>
-                    <span>Profile</span>
-                </li>
+                <li><i class="fa-regular fa-user"></i> Profile</li>
 
-                <li>
-                    <i class="fa-regular fa-file-lines"></i>
-                    <span>Stories</span>
-                </li>
+                <li><i class="fa-regular fa-file-lines"></i> Stories</li>
 
-                <li>
-                    <i class="fa-solid fa-chart-column"></i>
-                    <span>Stats</span>
-                </li>
+                <li><i class="fa-solid fa-chart-column"></i> Stats</li>
 
             </ul>
 
-            <hr>
+        </aside>
+<!--         
+        <hr>
 
             <h3>Following</h3>
 
@@ -80,139 +71,132 @@
                 </p>
 
                 <a href="#">See suggestions</a>
+            </div> -->
+
+        <!-- CENTER CONTENT -->
+
+        <main class="feed">
+
+            <div class="tabs">
+                <span class="active">For you</span>
+                <span>Featured</span>
+            </div>
+
+            <div class="article">
+
+                <div class="article-content">
+
+                    <p class="author">Leo Godin · Mar 2</p>
+
+                    <h2>Claude Code is Great</h2>
+
+                    <p>You Just Need to Learn How to Use It</p>
+
+                    <div class="stats">
+                        ⭐ 5.2K
+                        💬 150
+                        🔁 87
+                    </div>
+
+                </div>
+
+                <img src="https://picsum.photos/250/150?1">
+
+            </div>
+
+            <div class="article">
+
+                <div class="article-content">
+
+                    <p class="author">Data Science Collective · Feb 23</p>
+
+                    <h2>Should You Still Learn to Code in 2026?</h2>
+
+                    <p>The answer isn't as obvious as I used to believe.</p>
+
+                    <div class="stats">
+                        ⭐ 3.6K
+                        💬 178
+                        🔁 94
+                    </div>
+
+                </div>
+
+                <img src="https://picsum.photos/250/150?2">
+
+            </div>
+
+            <div class="article">
+
+                <div class="article-content">
+
+                    <p class="author">Books Are Our Superpower</p>
+
+                    <h2>Women Are Basically Reading Porn</h2>
+
+                    <p>
+                        And other misogynistic comments I receive
+                        when I say I'm a fiction reader
+                    </p>
+
+                    <div class="stats">
+                        ⭐ 6K
+                        💬 305
+                        🔁 167
+                    </div>
+
+                </div>
+
+                <img src="https://picsum.photos/250/150?3">
+
+            </div>
+
+        </main>
+        
+        <!-- right side wala v-baar -->
+        <aside class="rightbar">
+
+            <h3>Staff Picks</h3>
+
+            <div class="pick">
+              <img src="photot.jpg" >
+                <span>devin bambric</span>
+                <p>Gatori Fishing in America</p>
+                <span style="font-size: small;">5 days ago</span>
+            </div>
+
+            <div class="pick">
+              <img src="photot.jpg" ]]>
+                <span>john de vore</span>
+                <p>Cigarettes are bad. I miss them.</p>
+                <span style="font-size: small;">⭐4 days ago</span>
+
+            </div>
+
+            <div class="pick">
+              <img src="photto.jpg" >
+              <span>In Bootcamp <span id ="by ">by</span> </span>
+
+                <p>
+                    I Sat in Engineering Meetings for Two Years Without understanding what a branch Was
+                </p>
+            </div>
+
+            <h3>Recommended Topics</h3>
+
+            <div class="topics">
+
+                <span>Technology</span>
+                <span>Writing</span>
+                <span>Machine Learning</span>
+                <span>Politics</span>
+                <span>Cryptocurrency</span>
+
             </div>
 
         </aside>
 
     </div>
-    
-     <div class="sidebar-divider"></div>
-
-    <div style="padding: 0 16px 0 0;">
-      <p class="sidebar-section-label">Following</p>
-
-      <a href="#" class="following-item">
-        <div class="following-avatar" style="background: linear-gradient(135deg,#667eea,#764ba2);">LG</div>
-        Leo Godin
-      </a>
-      <a href="#" class="following-item">
-        <div class="following-avatar" style="background: linear-gradient(135deg,#f093fb,#f5576c);">MM</div>
-        Marina Wyss
-      </a>
-      <a href="#" class="following-item">
-        <div class="following-avatar" style="background: linear-gradient(135deg,#4facfe,#00f2fe);">MR</div>
-        Michal Malewicz
-      </a>
-
-      <button class="find-writers">
-        <div class="find-writers-icon">+</div>
-        <div>
-          <div class="find-writers-text">Find writers and publications to follow.</div>
-          <button class="see-suggestions">See suggestions</button>
-        </div>
-      </button>
-
-    </div>
-  </aside>
-
-  <!-- Main Feed -->
-  <main class="main">
-    <!-- Tabs -->
-    <div class="tabs">
-      <button class="tab active">For you</button>
-      <button class="tab">Featured</button>
-    </div>
-
-    <!-- Article 1 -->
-    <article class="article-card">
-      <div class="article-body">
-        <div class="article-meta">
-          <div class="author-avatar" style="background: linear-gradient(135deg,#667eea,#764ba2);">LG</div>
-          <span class="author-name">Leo Godin</span>
-          <span class="meta-sep">·</span>
-          <span>Mar 2</span>
-        </div>
-        <h2 class="article-title">Claude Code is Great</h2>
-        <p class="article-subtitle">You Just Need to Learn How to Use It</p>
-        <div class="article-footer">
-          <div class="stat-group">
-            <span class="star-badge">⭐</span>
-            <span>5K</span>
-          </div>
-          <div class="stat-group">
-            <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-            </svg>
-            149
-          </div>
-          <div class="stat-group">
-            
-            81
-          </div>
-          <div class="footer-actions">
-            <button class="icon-btn" title="Less like this">
-              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              </svg>
-            </button>
- <div class="article">
-
-        <div class="article-info">
-            <p>Leo Godin · Mar 2</p>
-
-            <h2>Claude Code is Great</h2>
-
-            <h4>You Just Need to Learn How to Use It</h4>
-
-            <div class="article-stats">
-                <span>⭐ 5.2K</span>
-                <span>💬 150</span>
-                <span>🔁 87</span>
-            </div>
-        </div>
-
-        <img src="https://picsum.photos/200/120?1" alt="">
-    </div>
-
-    <!-- Article 2 -->
-    <div class="article">
-
-        <div class="article-info">
-            <p>Data Science Collective · Feb 23</p>
-
-            <h2>Should You Still Learn to Code in 2026?</h2>
-
-            <h4>The answer isn't as obvious as it used to be.</h4>
-
-            <div class="article-stats">
-                <span>⭐ 3.6K</span>
-                <span>💬 178</span>
-                <span>🔁 94</span>
-            </div>
-        </div>
-
-        <img src="https://picsum.photos/200/120?2" alt="">
-    </div>
-
-    <!-- Article 3 -->
-    <div class="article">
-
-        <div class="article-info">
-            <p>Books Are Our Superpower · Mar 9</p>
-
-            <h2>Women Are Basically Reading Porn</h2>
-
-            <h4>Comments I receive when I say I'm a fiction reader.</h4>
-
-            <div class="article-stats">
-                <span>⭐ 6K</span>
-                <span>💬 305</span>
-                <span>🔁 167</span>
-            </div>
-        </div>
-
-        <img src="https://picsum.photos/200/120?3" alt="">
-    </div>
- 
 
 </body>
 </html>
