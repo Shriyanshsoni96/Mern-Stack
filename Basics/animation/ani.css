@@ -30,28 +30,73 @@ body {
 .card {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
   transition: 2s;
   display:flex;
   justify-content: center;
   align-items: center;
+    position: relative;
+    object-fit: cover;
+  
+
 
 }
-
-.card:hover{
-  transform:scale(1.2);
-  background-color: aqua;
+/* 
+.image-box:hover img{
+    transform: scale(1.1);
 }
+.image-box img{
+    width: 100%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.image-box:hover img{
+    transform: scale(1.08) translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    .gallery{
+    display: flex;
+    gap: 20px;
+}
+
+.gallery img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.gallery img:hover{
+    transform: translateY(-30px);
+    z-index: 100;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+} */
+
+/* 
+ .card:hover{
+    transform: translateX(-50%) translateY(-30px);
+    z-index: 100;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3); */
+    .card:hover{
+    transform: translateX(-50%) translateY(-30px) scale(1.05);
+    z-index: 100;
+}
+/* } */
+
+
 
 .top {
     width: 280px;
