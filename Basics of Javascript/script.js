@@ -118,7 +118,7 @@
 //trim() method removes whitespace from both ends of a string but it does not remove whitespace from the middle of a string
 
 // let name = "hello \"kaise\" ho aap log";
-// console.log(name); // Output: hello "kaise" ho aap log
+// console.l    og(name); // Output: hello "kaise" ho aap log
 // // if i want to print the backslash in a string then we can use double backslash
 // let path = "C:\\Users\\Jonny\\Documents";
 // console.log(path); // Output: C:\Users\Jonny\Documents
