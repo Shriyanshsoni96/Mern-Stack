@@ -87,6 +87,7 @@
 // console.log(name); // Output: [String: 'Jonny']
 // let op1 = firstname 
 // let op2 = lastname
+
 // console.log(`${op1} ${middlename} ${op2}`); // Output: John kumar Doe
 // template literals me aapko ${} ke andar variable ka naam dena hota he jisko aap print krna chahte ho
 
@@ -95,23 +96,31 @@
 
 // if i want to print the index of a character in a string then we can use indexOf() method
 // console.log(firstname.indexOf("n")); // Output: 2
+
 // if i want to print the last index of a character in a string then we can use lastIndexOf() method
 // console.log(firstname.lastIndexOf("n")); // Output: 3
+
 // if i want to print the character at a specific index in a string then we can use charAt() method
 // console.log(firstname.charAt(2)); // Output: n
 
 // if i want to print the substring of a string then we can use substring() method
 // console.log(firstname.substring(1, 4)); // Output: onn
+
 // if i want to print the slice of a string then we can use slice() method
 // console.log(firstname.slice(1, 4)); // Output: onn 
+
 // if i want to print the split of a string then we can use split() method
 // console.log(firstname.split("")); // Output: [ 'J', 'o', 'n', 'n', 'y', ' ' ]
+
 // if i want to print the replace of a string then we can use replace() method
 // console.log(firstname.replace("Jonny", "John")); // Output: John
+
 // if i want to print the toUpperCase of a string then we can use toUpperCase() method
 // console.log(firstname.toUpperCase()); // Output: JONNY
+
 // if i want to print the toLowerCase of a string then we can use toLowerCase() method
 // console.log(firstname.toLowerCase()); // Output: jonny
+
 // if i want to print the trim of a string then we can use trim() method
 // let str = "   Hello World   ";
 // console.log(str.trim()); // Output: Hello World

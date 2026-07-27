@@ -54,7 +54,7 @@
 // // console.log(arr3); // Output: [ 1, 4, 9, 16, 25 ]
 
 
-// arr3= arr3.map((number, index)=>{
+// arr3= arr3.map((number, index)=>{  
 //     console.log(number); // Output: 10 20 30 40 50
 //     console.log(index); // Output: 0 1 2 3 4
 // })

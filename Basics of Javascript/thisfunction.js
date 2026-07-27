@@ -114,14 +114,14 @@
 // this is repitative task which we are trying to insert every student details 
 // so we will replace by directing the things using the constructors 
 
-function Student(name,age){
-    this.name=name;
-    this.age=age;
-}
-// this is the constructors function
-const s1 = new Student("Shriyansh", 21);
-const s2 = new Student("Vedansh", 16);
+// function Student(name,age){
+//     this.name=name;
+//     this.age=age;
+// }
+// // this is the constructors function
+// const s1 = new Student("Shriyansh", 21);
+// const s2 = new Student("Vedansh", 16);
 
-console.log(s1);
-console.log(s2);
+// console.log(s1);
+// console.log(s2);
 
