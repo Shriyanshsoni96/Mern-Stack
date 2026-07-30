@@ -16,17 +16,18 @@
 
 
 //using of rest 
-// const colors=["Red","Green","Blue","Orange"]
-// const [clr_1,clr_2,...rest] = colors;
-// console.log(clr_1)
-// console.log(clr_2)
-// console.log(rest)
-
-// Skipping values 
 const colors=["Red","Green","Blue","Orange"]
-const [clr_1,clr_2,,clr_4] = colors;
+const [clr_1,clr_2,...rest] = colors;
 console.log(clr_1)
 console.log(clr_2)
-console.log(clr_4)
+console.log(rest)// all the rest remaining elements came 
+
+
+// Skipping values 
+// const colors=["Red","Green","Blue","Orange"]
+// const [clr_1,clr_2,,clr_4] = colors;
+// console.log(clr_1)
+// console.log(clr_2)
+// console.log(clr_4)
 
 
