@@ -26,6 +26,7 @@
 // console.log(elements);
 
 
+
 // Updating DOM elements
 // 1. innerHTML property is used to get or set the HTML content of an element.
 // let element = document.getElementById("myElement");
@@ -34,8 +35,8 @@
 //2. outerHTML property is used to get or set the HTML content of an element, including the element itself.
 // When you set outerHTML, the element is replaced by the new HTML content.
 // it can set the whole element in to the new content, it can also be used to remove the element from the DOM by setting it to an empty string.
-// let element = document.getElementById("myElement");
-// element.outerHTML = "<div id='myElement'>New content</div>";
+// let element = document.getElementById("Para");
+// element.outerHTML = "<div id='myElement'> New content which is now visible  </div> ";
 
 // 3. textContent property is used to get or set the text content of an element.
 // let element = document.getElementById("myElement");
