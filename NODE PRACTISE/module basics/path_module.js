@@ -6,7 +6,7 @@ const path= require("path");
 // ex. ek file bnna he school->class->section->student.txt 
 
 const filepath=path.join("school","class","section","student.txt");
-// console.log(filepath);
+console.log(filepath);
 // provides the full path which we made 
 
 console.log(path.basename(filepath)); // filename
