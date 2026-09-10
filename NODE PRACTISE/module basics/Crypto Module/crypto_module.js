@@ -18,6 +18,6 @@ const crypto = require("crypto");
 const token = crypto.randomBytes(32).toString("hex");
 console.log(token);
 //output it will generate new token everytime
-//*usage 
+//* Usage 
 // It is used when we uses forgot password
 // Password-reset tokens, Email-verification tokens, Session IDs, API secrets, One-time tokens

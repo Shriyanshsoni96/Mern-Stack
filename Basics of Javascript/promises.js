@@ -7,9 +7,7 @@ const orderfood = new Promise((resolve,reject)=>{
     else
     {
         reject("Order Decline");
-
     }
-
 });
 
 orderfood

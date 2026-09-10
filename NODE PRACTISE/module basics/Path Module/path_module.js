@@ -6,12 +6,12 @@ const path= require("path");
 // ex. ek file bnna he school->class->section->student.txt 
 
 const filepath=path.join("school","class","section","student.txt");
-console.log(filepath);
+// console.log(filepath);
 // provides the full path which we made 
 
-console.log(path.basename(filepath)); // filename
-console.log(path.extname(filepath)); // file extention iska he txt 
-console.log(path.resolve(filepath)); // current+fielname complete
-console.log(path.dirname(filepath)); // directory name
+// console.log(path.basename(filepath)); // filename
+// console.log(path.extname(filepath)); // file extention iska he txt 
+// console.log(path.resolve(filepath)); // current+fielname complete
+// console.log(path.dirname(filepath)); // directory name
 console.log(path.parse(filepath)); // proper json me kya extension he sab kuch
 
