@@ -1,0 +1,19 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "Practice of MERN Stack Development With Project using HTML , CSS , JAVASCRIPT \r HTML completed \r CSS complete \r BOOTSTRAP completed \r TAILWIND complted",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shriyanshsoni96/Mern-Stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shriyanshsoni96/Mern-Stack/issues"
+  },
+  "homepage": "https://github.com/Shriyanshsoni96/Mern-Stack#readme"
+}
