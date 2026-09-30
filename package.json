@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Shriyanshsoni96/Mern-Stack#readme",
   "dependencies": {
+    "chalk": "^6.0.1",
     "nodemon": "^3.1.14"
   }
 }
